@@ -6,7 +6,7 @@ import sys
 print('CVE-2015-5477 BIND9 TKEY PoC')
 
 if len(sys.argv) < 2:
-	print('Usage: ' + sys.argv[0] + '[target]')
+	print('Usage: ' + sys.argv[0] + ' [target]')
 	sys.exit(1)
 
 print('Sending packet to ' + sys.argv[1] + ' ...')
